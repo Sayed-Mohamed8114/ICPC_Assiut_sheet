@@ -9,6 +9,7 @@ elif a == 0:
     print("Eixo Y")
 elif b == 0:
     print("Eixo X")
+    
 elif a>0 and b>0:
     print(coordinates[0])
 elif a>0 and b<0:
