@@ -6,5 +6,6 @@ if "." in N:  # has decimal point
         print("int", int(int_part))
     else:
         print("float", int(int_part), "0." + dec_part)
+              
 else:  # pure integer
     print("int", int(N))
