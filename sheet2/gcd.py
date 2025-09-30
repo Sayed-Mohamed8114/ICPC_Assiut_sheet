@@ -1,3 +1,4 @@
+#get the greatest common divisor 
 x,y=map(int,input().split())
 gcd=[]
 for i in range(1,min(x,y)+1):
